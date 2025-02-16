@@ -6,9 +6,11 @@
     <title>Lab 5, CSS</title>
 <style>
     h1.title {color:crimson; background-color: black; font-family: algerian;}
+    h1.labtitle{font-family: fantasy; color: maroon; padding: 2px; font-size: 40px; text-shadow: 1px 10px 20px black; font-style: oblique;}
     h1 {text-align: center;}
     p {color: green;}
     p.info {color:gray; text-align: right; font-family: Cambria; font-style: italic;}
+    p.description {text-align: center; color: black; font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; padding: 5px;}
     body{background-color: lightcyan;}
     p.msg{font-family: "arial black";}
     p#parag{font-weight: bolder;color: blue;}
@@ -25,6 +27,12 @@
     .square1{border: yellow 30px groove; margin-left: 100px; padding-top: 50px;}
     .square2{border: dotted 20px purple; margin: 50px 200px; padding: 20px;}
     .square3{border: inset 30px lightcoral; margin: 20px auto; padding: 20px 50px;}
+
+    .redrose {width: 323px; height: 323px; border: 5px groove maroon; margin: auto;}
+    .whiterose {width: 323px; height: 323px; border: 5px dashed purple; margin: auto;}
+    .pinkrose {width: 323px; height: 323px; border: 5px double grey; margin: auto;}
+    .yellowrose {width: 323px; height: 323px; border: 5px dotted goldenrod; margin: auto;}
+
 </style>
 </head>
 <body>
@@ -48,5 +56,19 @@
     <div class="square2">The domestic dog is a member of the genus Canis (canines), which forms part of the wolf-like canids</div>
     <div class="square3">The domestic dog is a member of the genus Canis (canines), which forms part of the wolf-like canids</div>
     <h1>Lab Exercise</h1>
+    <h1 class="labtitle">Roses</h1>
+    <p class="description">A rose is either a woody perennial flowering plant of the genus Rosa in the family Rosaceae, or the flower it bears. 
+There are over three hundred species and tens of thousands of cultivars. They form a group of plants that can be erect shrubs, climbing, or trailing,
+with stems that are often armed with sharp prickles. Their flowers vary in size and shape and are usually large and showy, in colours 
+ranging from white through pinks, reds, oranges and yellows. Most species are native to Asia, with smaller numbers native to Europe, 
+North America, and Northwest Africa. Species, cultivars and hybrids are all widely grown for their beauty and often are fragrant. 
+Roses have acquired cultural significance in many societies. Rose plants range in size from compact, miniature roses to climbers that can 
+reach seven meters in height. Different species hybridize easily, and this has been used in the development of the wide range of garden roses.</p>
+    <figure>
+        <img class="redrose" src="images3/redrose.jpg" alt="picture of a red rose">
+        <img class="whiterose" src="images3/whiterose.jpg" alt="picture of a white rose">
+        <img class="pinkrose" src="images3/pinkrose.jpg" alt="picture of a pink rose">
+        <img class="yellowrose" src="images3/yellowrose.jpg" alt="picture of a yellow rose">
+    </figure>
 </body>
 </html>
