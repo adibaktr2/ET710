@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+header {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    box-shadow: 0px 4px 6px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image-division {
+width: 40%;
+}
+.title-division {
+    width: 75%;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+.clearfix {
+    clear: both;
+}
+nav {
+    background-color: #222;
+    text-align: center;
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav ul li {
+    flex-grow: 1;
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+.introduction {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.text-division {
+    width: 60%;
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+}
+.content-section {
+    padding: 20px;
+    color: white;
+}
+.content-section h2 {
+    text-align: center;
+}
+.card {
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+    background-color: darkslategray;
+    box-shadow: 0px 4px 8px lightslategray;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card a {
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
