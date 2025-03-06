@@ -94,3 +94,26 @@ img {
     width: 10%;
     margin-right: 5%;
 }
+
+@media only screen and (max-width: 1400px) {
+    .card{background-color: lightcoral; width: 40%;}
+    .cardtitle{text-align: center;}
+    .link{padding: 1em 2em; font-size: 1.1em;}
+    .headertitle{font-size: 1.2em;}
+}
+
+@media only screen and (max-width: 800px) {
+    .maincontainer{height: auto;}
+    .card{width: 90%; margin-bottom: 2em;}
+    .card:nth-child(1){margin-top: 2em;}
+    .headertitle{width: 90%; padding: 1em; font-size: 3em;}
+    .header{flex-wrap: wrap;}
+    .navlinks{width: 100%; justify-content: center;}
+    .footer{flex-wrap: wrap;}
+    .footercustomer, .footermyaccount, .footerfollow{width: 50%;}
+}
+
+@media only screen and (max-width: 500px) {
+    .navlinks{display: none;}
+    .collapsemenu{display: block; margin-left: auto; padding: 0em 1em;}
+}
