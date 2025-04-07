@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap dropdown list</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Dropdown list</h1>
+    <div class="dropdown dropend">
+        <button type="button" class="dropdown-toggle btn btn-secondary" data-bs-toggle="dropdown">CUNY community college</button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-header bg-dark text-light">Queens</li>
+            <li><a class=dropdown-item href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer">Queensborough</a></li>
+            <li><a class=dropdown-item href="https://www.laguardia.cuny.edu" target="_blank" rel="noopener noreferrer">LaGuardia</a></li>
+            <li class="dropdown-header bg-dark text-light">Brooklyn</li>
+            <li><a class=dropdown-item href="https://www.kbcc.cuny.edu" target="_blank" rel="noopener noreferrer">Kingsborough</a></li>
+            <hr>
+            <li><a class=dropdown-item href="https://www.cuny.edu" target="_blank" rel="noopener noreferrer">More Info</a></li>
+        </ul>
+    </div>
+    <h1>Grouping buttons</h1>
+<section class="btn-group ms-3 d-block">
+    <button type="button" class="btn btn-success">Amphibian</button>
+    <button type="button" class="btn btn-success">Reptile</button>
+    <button type="button" class="btn btn-success">Others</button>
+</section>
+
+<section class="btn-group-vertical ms-3 d-block w-25"></section>
+    <button type="button" class="btn btn-success">Amphibian</button>
+    <button type="button" class="btn btn-success">Reptile</button>
+    <button type="button" class="btn btn-success">Others</button>
+</section>
+
+<section class="btn-group ms-3 w-100"></section>
+    <button class="btn btn-danger " type="button"><a class="dropdown-item" href="#" >Home</a></button>
+    <button class="btn btn-danger dropdown-toggle " type="button" data-bs-toggle="dropdown"><a class="dropdown-item" href="#" >CUNY Community Colleges</a></button>
+    <button class="btn btn-danger " type="button"><a class="dropdown-item" href="https://www.cuny.edu" target="_blank" rel="noopener noreferrer">Go to CUNY</a></button>
+    <ul class="dropdown-menu">
+        <li class="dropdown-header bg-dark text-light">Queens</li>
+        <li><a class=dropdown-item href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer">Queensborough</a></li>
+        <li><a class=dropdown-item href="https://www.laguardia.cuny.edu" target="_blank" rel="noopener noreferrer">LaGuardia</a></li>
+        <li class="dropdown-header bg-dark text-light">Brooklyn</li>
+        <li><a class=dropdown-item href="https://www.kbcc.cuny.edu" target="_blank" rel="noopener noreferrer">Kingsborough</a></li>
+        <hr>
+        <li><a class=dropdown-item href="https://www.cuny.edu" target="_blank" rel="noopener noreferrer">More Info</a></li>
+    </ul>
+
+</section>
+
+<h1>Collapsible</h1>
+<button type="button" class="btn btn-info" data-bs-target="#cat" data-bs-toggle="collapse">Info about cats</button>
+<section id="cat" class="collapse bg-light">
+    <p class="m-5 p-5">The cat (Felis catus), also referred to as the domestic cat or house cat, is a small domesticated carnivorous mammal. 
+        It is the only domesticated species of the family Felidae.</p>
+        <figure class="m-3 p-5">
+            <img src="imageslab12/cat.jpg" alt="image of a cat" class="w-50 m-auto d-block img-thumbnail p-5 mb-5">
+        </figure>
+</section>
+
+<h1>Accordions</h1>
+<section class="accordion" id="accordionexample">
+    <div class="accordion-item">
+        <p class="accordion-header" id="heading_one">
+            <button class="accordion-button" data-bs-target="#collapse_one" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapse_one">Cats</button>
+        </p>
+
+        <div class="accordion-collapse collapse show" id="collapse_one" aria-labelledby="heading_one" data-bs-parent="accordionexample">
+            <div class="p-5 bg-light accordion-body">
+                <p>The cat (Felis catus), also referred to as the domestic cat or house cat, is a small domesticated carnivorous mammal. 
+                It is the only domesticated species of the family Felidae.</p>
+                <figure class="m-3 p-5">
+                    <img src="imageslab12/cat.jpg" alt="image of a cat" class="w-50 m-auto d-block img-thumbnail p-5 mb-5">
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
