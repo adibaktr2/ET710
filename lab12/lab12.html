@@ -86,7 +86,7 @@
         <div class="accordion-collapse collapse" id="collapse_two" aria-labelledby="heading_two" data-bs-parent="accordionexample">
             <div class="p-5 bg-light accordion-body">
                 <p>A fish is an aquatic, anamniotic, gill-bearing vertebrate animal with swimming fins and a hard skull, 
-                    but lacking limbs with digits. </p>
+                    but lacking limbs with digits.</p>
                 <figure class="m-3 p-5">
                     <img src="imageslab12/fish.jpg" alt="image of a fish" class="w-50 m-auto d-block img-thumbnail p-5 mb-5">
                 </figure>
@@ -95,11 +95,111 @@
     </div>
 </section>
 
+<h2>Grid system</h2>
+<section class="container">
+    <div class="row">
+        <div class="col-5 bg-danger">column with 5-span</div>
+        <div class="col-7 bg-success">column with 7-span</div>
+    </div>
+</section>
 
+<section class="container">
+    <div class="row">
+        <div class="col-lg-1 col-md-7 col-sm-6 bg-danger">left column</div>
+        <div class="col-lg-3 col-md-2 col-sm-6 bg-success">medium column</div>
+        <div class="col-lg-7 col-md-3 col-sm-12 bg-warning">right column</div>
+    </div>
+</section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-  </body>
-</html>
+<section class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-xl-2 col-lg-5 col-sm-11 bg-light rounded p-3 m-1">
+            <img class="w-100" src="imageslab12/dogs.jpg" alt="image of a dog">
+            <h2 class="text-danger mt-3">Dogs</h2>
+            <p>The dog is a domesticated descendant of the gray wolf. Also called the domestic dog, 
+                it was selectively bred from an extinct population of wolves during the Late Pleistocene by hunter-gatherers.</p>
+        </div>
+        <div class="col-xl-2 col-lg-5 col-sm-11 bg-light rounded p-3 m-1">
+            <img class="w-100" src="imageslab12/fish.jpg" alt="image of a fish">
+            <h2 class="text-danger mt-3">Fish</h2>
+            <p>A fish is an aquatic, anamniotic, gill-bearing vertebrate animal with swimming fins and a hard skull, 
+                but lacking limbs with digits.</p>
+        </div>
+        <div class="col-xl-2 col-lg-5 col-sm-11 bg-light rounded p-3 m-1">
+            <img class="w-100" src="imageslab12/cat.jpg" alt="image of a cat">
+            <h2 class="text-danger mt-3">Cat</h2>
+            <p>The cat (Felis catus), also referred to as the domestic cat or house cat, is a small domesticated carnivorous mammal. 
+                It is the only domesticated species of the family Felidae.</p>
+        </div>
+        <div class="col-xl-2 col-lg-5 col-sm-11 bg-light rounded p-3 m-1">
+            <img class="w-100" src="imageslab12/fish.jpg" alt="image of a fish">
+            <h2 class="text-danger mt-3">Fish</h2>
+            <p>A fish is an aquatic, anamniotic, gill-bearing vertebrate animal with swimming fins and a hard skull, 
+                but lacking limbs with digits.</p>
+            </div>
+    </div>
+</section>
+
+<h1>Cards</h1>
+<section class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-11 card bg-light m-3">
+            <section class="card-body">
+                <img class="card-img" src="imageslab12/cat.jpg" alt="image of a cat">
+                <h2 class="card-title text-info">Cats</h2>
+                <p class="card-subtitle">Playful and curious</p>
+                <p class="card-text">The cat (Felis catus), also referred to as the domestic cat or house cat, is a small domesticated carnivorous mammal. 
+                    It is the only domesticated species of the family Felidae.</p>
+                    <a class="card-link" href="#">Read more</a>
+                    <a class="card-link" href="#">Adoption Site</a>
+                    <a class="card-link" href="#">Donation</a>
+            </section>
+        </div>
+
+        <div class="col-lg-3 col-md-11 card bg-light m-3">
+            <section class="card-header">
+                <h2 class="card-title">Cats</h2>
+                <p class="card-subtitle">Playful and curious</p>
+            </section>
+
+            <section class="card-body">
+                <img class="card-img" src="imageslab12/cat.jpg" alt="image of a cat">
+                <p class="card-text">The cat (Felis catus), also referred to as the domestic cat or house cat, is a small domesticated carnivorous mammal. 
+                    It is the only domesticated species of the family Felidae.</p>
+            </section>
+
+            <section class="card-footer bg-warning">
+                <nav>
+                    <a class="card-link" href="#">Read more</a>
+                    <a class="card-link" href="#">Adoption Site</a>
+                    <a class="card-link" href="#">Donation</a>
+                </nav>
+            </section>
+        </div>
+
+        <div class="col-lg-3 col-md-11 cardbg-light m-3">
+            <section class="card-header">
+                <img class="card-img" src="imageslab12/cat.jpg" alt="image of a cat">
+            </section>
+
+            <section class="card-body bg-dark">
+                <h2 class="card-title text-warning">Cats</h2>
+                <p class="card-subtitle text-light">Playful and curious</p>
+                <p class="card-text text-light">The cat (Felis catus), also referred to as the domestic cat or house cat, is a small domesticated carnivorous mammal. 
+                    It is the only domesticated species of the family Felidae.</p>
+            </section>
+
+            <section class="card-footer bg-warning">
+                <nav>
+                    <a class="card-link" href="#">Read more</a>
+                    <a class="card-link" href="#">Adoption Site</a>
+                    <a class="card-link" href="#">Donation</a>
+                </nav>
+            </section>
+        </div>
+
+    </div>
+</section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
   </body>
