@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab 13, modal window</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Modal Window</h1>
+    <main class="container">
+        <section class="card w-25 border border-3 border-warning">
+            <div class="card-header">Summer Vacation</div>
+            <p class="card-text p-3">Best summer vacation in the USA</p>
+            <div class="card-footer">
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalwindow">More info</button>
+            </div>
+        </section>
+
+        <section class="modal" id="modalwindow" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title">USA best places to visit during summer</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <ul>
+                            <li><a href="https://travel.usnews.com/Glacier_National_Park_MT/" target="_blank" rel="noopener noreferrer">Glacier National Park</a></li>
+                            <li><a href="https://travel.usnews.com/Yellowstone_National_Park_WY/" target="_blank" rel="noopener noreferrer">Yellowstone National Park</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
